@@ -1,4 +1,4 @@
-# SMMS - Show Me Mexican Sign
+# SMAMS - Show Me A Mexican Sign
 Este proyecto hace Detección de Lenguaje de Señas Mexicanas en Tiempo Real
 
 ## Equipo
