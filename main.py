@@ -27,12 +27,12 @@ class Application:
         self.vs = cv2.VideoCapture(0)
         self.current_image = None
         self.current_image2 = None
-        self.json_file = open("Models\model_new.json", "r")
+        self.json_file = open("Models\model_new_2.json", "r")
         self.model_json = self.json_file.read()
         self.json_file.close()
 
         self.loaded_model = model_from_json(self.model_json)
-        self.loaded_model.load_weights("Models\model_new.h5")
+        self.loaded_model.load_weights("Models\model_new_2.h5")
 
         self.json_file_dru = open("Models\model-bw_dru.json" , "r")
         self.model_json_dru = self.json_file_dru.read()
